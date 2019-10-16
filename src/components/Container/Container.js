@@ -6,7 +6,7 @@ import s from './Container.module.css';
 const Container = () => {
   return (
     <div className={s.cont}>
-      <ReactPlayer url={d} playing className={s.j} width="104%" height="100%" />
+      <ReactPlayer url={d} playing className={s.j} width="100%" height="100%" />
     </div>
   );
 };

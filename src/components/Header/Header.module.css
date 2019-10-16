@@ -1,7 +1,6 @@
 .header_cont {
   background-color: blue;
   padding: 10px;
-  width: 100%;
   height: 100%;
   display: flex;
   flex-flow: row;
