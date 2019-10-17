@@ -102,3 +102,47 @@
   line-height: 126.84%;
   color: #FFFFFF;
 }
+
+.items {
+  list-style: none;
+}
+
+.item {
+  background-color: #FFFFFF;
+  width: 200px;
+  height: 250px;
+  padding: 10px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+  border-radius: 17px 17px 17px 17px;
+}
+
+.img1 {
+  height: 30px;
+  width: 30px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title_item {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.050568px;
+  color: #222222;
+}
+
+.item_descr {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 144%;
+  letter-spacing: -0.050568px;
+  color: #0F0F10;
+}
