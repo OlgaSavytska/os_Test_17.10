@@ -4,6 +4,27 @@ import logo2 from '../../images/Rectangle.png';
 import menu from '../../images/Menu.png';
 import s from './Header.module.css';
 
+// class Header extends Component {
+//   state = {
+//     headerClass: 'white',
+//   };
+// }
+// listenScrollEvent400 = e => {
+//   if (window.scrollY > 400) {
+//     { return; }
+//     this.setState({ headerClass: 'black' });
+//   }
+//   listenScrollEventelse = e => {
+//     { return; }
+//     this.setState({ headerClass: 'white' });
+//   }
+
+//   componentDidMount() {
+//     window.addEventListener('scroll', this.listenScrollEvent)
+//   }
+
+//   render() {
+
 const Header = () => {
   return (
     <div className={s.header_cont}>

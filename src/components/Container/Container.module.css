@@ -8,13 +8,97 @@
   position: absolute;
   left: 0;
   right: 0;
-  height: 100%;
+  height: 86%;
   top: 100px;
-  background-color: bisque;
+  background: linear-gradient(-360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+
 }
 
 .title_cont {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.title {
+  width: 210px;
+  height: 35px;
+  font-family: SF Pro Display;
+  font-size: 35px;
+  line-height: 100%;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.title_big {
+  width: 651px;
+  height: 168px;
+  font-family: SF Pro Display;
+  font-size: 64px;
+  line-height: 131%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.section_card {
+  margin-bottom: 40px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.cont_infoCont {
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  width: 800px;
+  height: 1000px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+  border-radius: 17px 17px 17px 17px;
+  padding: 30px;
+  background-image: url('../../images/wing-of-airplan.png');
+
+}
+
+.table_content {
+  background-color: crimson;
+  width: 800px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.table_content_contr {
+  background-color: rgb(63, 12, 22);
+  width: 700px;
+  height: 900px;
+}
+
+.titles {
+  width: 700px;
+}
+
+.plan_title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 126.84%;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.title_desc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 126.84%;
+  color: #FFFFFF;
 }
