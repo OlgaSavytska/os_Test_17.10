@@ -15,14 +15,16 @@ import agoda from '../../images/Agoda.png';
 const Container = () => {
   return (
     <div className={s.cont}>
-      <ReactPlayer
-        url={d}
-        playing
-        autoPlay
-        className={s.j}
-        width="100%"
-        height="100%"
-      />
+      <div className={s.exp}>
+        <ReactPlayer
+          url={d}
+          playing
+          autoPlay
+          className={s.j}
+          width="100%"
+          height="100%"
+        />
+      </div>
       <div className={s.for_background}>
         <div className={s.section_card}>
           <div className={s.title_cont}>
@@ -36,10 +38,12 @@ const Container = () => {
         <div className={s.cont_infoCont}>
           <div className={s.table}>
             <div className={s.titles}>
-              <h2 className={s.plan_title}>Планування подорожі</h2>
-              <p className={s.title_desc}>
-                Ретельна підготовка - запорука вдалої мандрівки.
-              </p>
+              <div className={s.title_width}>
+                <h2 className={s.plan_title}>Планування подорожі</h2>
+                <p className={s.title_desc}>
+                  Ретельна підготовка - запорука вдалої мандрівки.
+                </p>
+              </div>
               <div className={s.table_content}>
                 <div className={s.table_content_contr}>
                   <ul className={s.items}>

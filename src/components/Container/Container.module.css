@@ -8,7 +8,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  height: 86%;
+  height: 100%;
   top: 100px;
   background: linear-gradient(-360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
 
@@ -52,23 +52,27 @@
 .cont_infoCont {
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.title_width {
+  width: 100%;
 }
 
 .table {
-  width: 800px;
+  width: 83%;
   height: 1000px;
   -webkit-border-radius: 17px 17px 17px 17px;
   -moz-border-radius: 17px 17px 17px 17px;
   border-radius: 17px 17px 17px 17px;
   padding: 30px;
   background-image: url('../../images/wing-of-airplan.png');
-
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .table_content {
-
-  width: 800px;
   height: 1000px;
   display: flex;
   justify-content: center;
@@ -82,7 +86,7 @@
 }
 
 .titles {
-  width: 700px;
+  /* width: 700px; */
 }
 
 .plan_title {
@@ -106,7 +110,6 @@
 
 .items {
   list-style: none;
-  padding-left: 12px;
 }
 
 .item {
@@ -223,4 +226,249 @@
 .items3 {
   list-style: none;
   margin-top: 170px;
+}
+
+@media (max-width: 1750px) {
+  .for_background {
+    height: 99%;
+  }
+}
+
+@media (max-width: 1720px) {
+  .for_background {
+    height: 98%;
+  }
+}
+
+@media (max-width: 1690px) {
+  .for_background {
+    height: 97%;
+  }
+}
+
+@media (max-width: 1660px) {
+  .for_background {
+    height: 96%;
+  }
+}
+
+@media (max-width: 1630px) {
+  .for_background {
+    height: 95%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .for_background {
+    height: 94%;
+  }
+}
+
+@media (max-width: 1570px) {
+  .for_background {
+    height: 93%;
+  }
+}
+
+@media (max-width: 1540px) {
+  .for_background {
+    height: 92%;
+  }
+}
+
+@media (max-width: 1510px) {
+  .for_background {
+    height: 92%;
+  }
+}
+
+@media (max-width: 1480px) {
+  .for_background {
+    height: 91%;
+  }
+}
+
+@media (max-width: 1450px) {
+  .for_background {
+    height: 90%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .for_background {
+    height: 89%;
+  }
+}
+
+@media (max-width: 1350px) {
+  .for_background {
+    height: 88%;
+  }
+}
+
+@media (max-width: 1301px) {
+  .for_background {
+    height: 86%;
+  }
+}
+
+@media (max-width: 905px) {
+  .table_content_contr {
+    width: 800px;
+    height: 1000px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .titles {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .table_width {
+    width: 50%;
+  }
+
+  .table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+
+  }
+
+  .table_content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .items {
+    padding: 0px;
+  }
+
+  .plan_title {
+    margin: 0;
+  }
+
+  .title_width {
+    width: 51%;
+    margin: auto;
+  }
+
+  .for_background {
+    height: 100%;
+    width: 105%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .exp {
+    display: block;
+    width: 904px;
+  }
+}
+
+@media (max-width: 820px) {
+  .for_background {
+    width: 115%;
+  }
+}
+
+@media (max-width: 716px) {
+  .for_background {
+    width: 125%;
+  }
+}
+
+@media (max-width: 658px) {
+  .for_background {
+    width: 135%;
+  }
+}
+
+@media (max-width: 608px) {
+  .for_background {
+    width: 145%;
+  }
+}
+
+@media (max-width: 566px) {
+  .for_background {
+    width: 155%;
+  }
+}
+
+@media (max-width: 530px) {
+  .for_background {
+    width: 165%;
+  }
+}
+
+@media (max-width: 498px) {
+  .for_background {
+    width: 175%;
+  }
+}
+
+@media (max-width: 470px) {
+  .for_background {
+    width: 185%;
+  }
+}
+
+@media (max-width: 444px) {
+  .for_background {
+    width: 195%;
+  }
+}
+
+@media (max-width: 422px) {
+  .for_background {
+    width: 205%;
+  }
+}
+
+@media (max-width: 412px) {
+  .for_background {
+    width: 215%;
+  }
+}
+
+@media (max-width: 382px) {
+  .for_background {
+    width: 225%;
+  }
+}
+
+@media (max-width: 368px) {
+  .for_background {
+    width: 235%;
+  }
+}
+
+@media (max-width: 350px) {
+  .for_background {
+    width: 280%;
+  }
+}
+
+@media (max-width: 336px) {
+  .for_background {
+    width: 269%;
+  }
+}
+
+@media (max-width: 325px) {
+  .for_background {
+    width: 279%;
+  }
+}
+
+@media (max-width: 322px) {
+  .for_background {
+    width: 283%;
+  }
 }
