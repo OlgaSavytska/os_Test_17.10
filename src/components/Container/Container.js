@@ -6,6 +6,10 @@ import d from '../../images/video.mp4';
 import s from './Container.module.css';
 import card from '../../images/Group.png';
 import mini from '../../images/MaskGroup.png';
+import visa from '../../images/Visa.png';
+import black from '../../images/Black.png';
+import car from '../../images/Generic.png';
+import pers from '../../images/Persinal.png';
 
 const Container = () => {
   return (
@@ -53,6 +57,56 @@ const Container = () => {
                           Подробнее >
                         </a>
                       </a>
+                    </li>
+                    <li className={s.item}>
+                      <img className={s.img1} src={visa} alt="black" />
+                      <h2 className={s.title_item}>Оренда сейфу</h2>
+                      <p className={s.item_descr}>
+                        Орендуйте сейф зі знижкою 30 % для надійного зберігання
+                        важливих документів та цінних речей, доки ви за
+                        кордоном.
+                      </p>
+                    </li>
+                    <li className={s.item2}>
+                      <a href="" className={s.link}>
+                        <img className={s.img2} src={black} alt="mini card" />
+                        <h2 className={s.title_item}>
+                          Повне страхування подорожі до 500 000 $
+                        </h2>
+                        <p className={s.item_descr}>
+                          Сума страхового покриття для власників карток Visa
+                          Signature
+                        </p>
+                        <a href="" className={s.link1}>
+                          Подробнее >
+                        </a>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul className={s.items}>
+                    <li className={s.item3}>
+                      <a href="" className={s.link}>
+                        <img className={s.img3} src={car} alt="car" />
+                        <h2 className={s.title_item3}>Оренда авто</h2>
+                        <p className={s.item_descr}>
+                          Бронюйте автомобілі по всьому світу, оплачуйте карткою
+                          Visa Signature та отримайте знижку
+                        </p>
+                        <a href="" className={s.link1}>
+                          Подробнее >
+                        </a>
+                      </a>
+                    </li>
+                    <li className={s.item}>
+                      <img className={s.img1} src={pers} alt="personal" />
+                      <h2 className={s.title_item}>Персональний менеджер</h2>
+                      <p className={s.item_descr4}>
+                        Ваш фінансовий помічник, який завжди допоможе: {'\n'}-
+                        здійснити банківські операції за вашим дорученням {'\n'}
+                        - підготувати всі необхідні документи до вашого візиту в
+                        Банк {'\n'}- надасть якісні консультації й підбере для
+                        вас найкращі умови
+                      </p>
                     </li>
                   </ul>
                 </div>

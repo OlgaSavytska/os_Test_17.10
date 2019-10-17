@@ -72,12 +72,14 @@
   height: 1000px;
   display: flex;
   justify-content: center;
+
 }
 
 .table_content_contr {
   background-color: rgb(63, 12, 22);
-  width: 700px;
-  height: 900px;
+  width: 800px;
+  height: 1000px;
+  display: flex;
 }
 
 .titles {
@@ -110,11 +112,11 @@
 .item {
   background-color: #FFFFFF;
   width: 200px;
-  height: 250px;
-  padding: 10px;
+  padding: 12px;
   -webkit-border-radius: 17px 17px 17px 17px;
   -moz-border-radius: 17px 17px 17px 17px;
   border-radius: 17px 17px 17px 17px;
+  margin-bottom: 20px;
 }
 
 .img1 {
@@ -126,6 +128,14 @@
   text-decoration: none;
 }
 
+.link1 {
+  font-family: SF Pro Display;
+  font-size: 14px;
+  line-height: 120%;
+  align-items: center;
+  color: #4672E1;
+}
+
 .title_item {
   text-decoration: none;
   font-family: Roboto;
@@ -135,6 +145,7 @@
   line-height: 120%;
   letter-spacing: -0.050568px;
   color: #222222;
+  margin-top: 0;
 }
 
 .item_descr {
@@ -145,4 +156,61 @@
   line-height: 144%;
   letter-spacing: -0.050568px;
   color: #0F0F10;
+}
+
+.img2 {
+  height: 100px;
+  width: 100px;
+}
+
+.item2 {
+  background: linear-gradient(180deg, #FFDF6B 0%, #FFD43C 100%);
+  width: 200px;
+  padding: 12px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+  border-radius: 17px 17px 17px 17px;
+  margin-bottom: 20px;
+}
+
+.item3 {
+  background: linear-gradient(180deg, #7A9FFF 0%, #57D5F0 100%);
+  border-radius: 12px;
+  width: 200px;
+  padding: 12px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+  border-radius: 17px 17px 17px 17px;
+  margin-bottom: 20px;
+
+}
+
+.img3 {
+  height: 200px;
+  width: 200px;
+  margin-top: -54px;
+  margin-left: -20px;
+}
+
+.title_item3 {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.050568px;
+  color: #222222;
+  margin-top: -37px;
+}
+
+.item_descr4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 144%;
+  letter-spacing: -0.050568px;
+  color: #0F0F10;
+  white-space: pre-line;
 }
