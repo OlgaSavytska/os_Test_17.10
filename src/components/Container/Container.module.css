@@ -67,7 +67,7 @@
 }
 
 .table_content {
-  background-color: crimson;
+
   width: 800px;
   height: 1000px;
   display: flex;
@@ -76,7 +76,6 @@
 }
 
 .table_content_contr {
-  background-color: rgb(63, 12, 22);
   width: 800px;
   height: 1000px;
   display: flex;
@@ -107,6 +106,7 @@
 
 .items {
   list-style: none;
+  padding-left: 12px;
 }
 
 .item {
@@ -213,4 +213,14 @@
   letter-spacing: -0.050568px;
   color: #0F0F10;
   white-space: pre-line;
+}
+
+.items2 {
+  list-style: none;
+  margin-top: 80px;
+}
+
+.items3 {
+  list-style: none;
+  margin-top: 170px;
 }

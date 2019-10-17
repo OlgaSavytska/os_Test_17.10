@@ -10,6 +10,7 @@ import visa from '../../images/Visa.png';
 import black from '../../images/Black.png';
 import car from '../../images/Generic.png';
 import pers from '../../images/Persinal.png';
+import agoda from '../../images/Agoda.png';
 
 const Container = () => {
   return (
@@ -83,7 +84,7 @@ const Container = () => {
                       </a>
                     </li>
                   </ul>
-                  <ul className={s.items}>
+                  <ul className={s.items2}>
                     <li className={s.item3}>
                       <a href="" className={s.link}>
                         <img className={s.img3} src={car} alt="car" />
@@ -106,6 +107,32 @@ const Container = () => {
                         - підготувати всі необхідні документи до вашого візиту в
                         Банк {'\n'}- надасть якісні консультації й підбере для
                         вас найкращі умови
+                      </p>
+                    </li>
+                  </ul>
+                  <ul className={s.items3}>
+                    <li className={s.item}>
+                      <a href="" className={s.link}>
+                        <img className={s.img1} src={visa} alt="black" />
+                        <h2 className={s.title_item}>Консьєрж-сервіс</h2>
+                        <p className={s.item_descr}>
+                          Діє по всьому світу цілодобово й надає для вас
+                          глобальний сервіс інформаційної підтримки в
+                          телефонному режимі
+                        </p>
+                        <a href="" className={s.link1}>
+                          Подробнее >
+                        </a>
+                      </a>
+                    </li>
+                    <li className={s.item}>
+                      <img className={s.img1} src={agoda} alt="agoda" />
+                      <h2 className={s.title_item}>
+                        Оренда готелю на agoda.com
+                      </h2>
+                      <p className={s.item_descr}>
+                        Знижки у разі бронювання на agoda.com. Знижка 12 % в
+                        більш ніж 985 тис. готелів по всьому світу
                       </p>
                     </li>
                   </ul>
